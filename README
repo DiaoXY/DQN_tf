@@ -1,0 +1,11 @@
+DQN-Tensorflow
+
+This is a simple implementation of DQN, based on tensorflow.
+You can run run_this.py.
+In this implementation, the reference codehttps://github.com/MorvanZhou/Reinforcement-learning-with-tensorflow/tree/master/contents/5_Deep_Q_Network
+We set up a dual network structure for estimating the network and the target network, using the inconsistency of parameters between the two networks to reduce the correlation and calculate the loss function.
+
+The input to the neural network is observation, the state value.
+The output is the Q value of each action in this state.
+The picture shows the change of loss during training.
+file:///C:/Users/lenovo/Desktop/DQN_cost.png
